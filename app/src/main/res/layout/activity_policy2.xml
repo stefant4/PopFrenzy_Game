@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#62B6ED"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="42dp">
+
+        <TextView
+            android:id="@+id/policytextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="text"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
